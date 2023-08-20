@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Mono', monospace;
+    /* border: solid red; */
+    
+
+}
+.container{
+     width: 96vw;
+     height: 90%;
+     margin: auto;  
+     background-color: rgb(242, 241, 243);
+     position: relative;
+     /* border: solid gold; */
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    /* margin-left: 100px; */
+    align-items: center;
+    background-color: rgb(174, 167, 196,0.1);
+    position: sticky;
+}
+#logo{
+    width: 130px;
+    mix-blend-mode: exclusion;
+}
+.listitem{
+    display: inline;
+    list-style: none;
+    margin: 10px 10px;
+    /* padding: 1rem; */
+}
+.links{
+    text-decoration: none;
+    color: rgb(15, 10, 10);
+    font-weight: bold;
+    padding: 1rem;
+}
+.links:hover{
+    color: rgb(93, 98, 93);
+    background-color: rgb(21, 17, 22);
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(118, 111, 118);
+
+}
+.title{
+    text-align: center;
+    color: rgb(234, 228, 228);
+    margin-left: 8%;
+    /* margin-bottom: 50%; */
+    text-shadow: 0 0 34px rgb(85, 211, 135);
+    height: 30rem;
+    width: 35vw;
+    padding: 10px 0;
+}
+.medhu{
+    margin-top: 3rem;
+}
+#home{
+    height: 700px;
+    background-image: url(images/Untitled\ design.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title a{
+    border-radius: 5px;
+    color: #fefae0;
+    box-shadow: 0 0 5px #fefae0;
+    background-color: #344e41;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    
+    /* border: solid blue; */
+    /* margin-top: 100rem; */
+    
+}
+
+#aboutus{
+    padding: 50px , 0;
+    background: #dddde5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    /* border: solid ; */
+}
+/* .heading{
+    display: flex;
+    flex-wrap: wrap;
+} */
+#about h2 {
+    font-size: 2.3rem;
+}
+#about p {
+    font-size: 1.2rem;
+    color: #decfcf;
+    text-align: justify;
+}
+
+.about-img img{
+    flex: 1 1 400px;
+    padding: 10px;
+    /* transform: translateX(150%); */
+    /* animation: about-img-animation 1s ease-in-out forwards; */
+    width: 40vw;
+    border-radius: 1rem;
+
+}
+#food{
+    padding: 5rem 0 10rem 0;
+    background: #a0a7a1;
+}
+/* .food-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2em;
+} */
+.food-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+    
+}
+.food-content img{
+    display: block;
+    width: 100%;
+    margin: auto;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.bar-container{
+    width: 14rem;
+  height: 20rem;
+  background-color: #0e73258d;
+  border-radius: 1rem;
+  /* display: flex; */
+  /* transform: scale(100%); */
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 0 9px #000;
+}
+.heading *{
+    text-align: center;
+    font-family: Lumanosimo;
+    color: rgb(11, 250, 23);
+}
+.heading h2{
+    font-size: 30px;
+}
+.FineDining img{
+    width: 200px;
+    height: 200px;
+}
+.Coffee img{
+    width: 200px;
+    height: 200px;
+}
+
+.bar-container img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* object-fit: ; */
+    /* object-position: center; */
+}
+
+.foodmenu-content{
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+.bar-container h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #15043e;
+    font-family: Lumanosimo;
+    text-shadow: 0 0 5px #1342c3;
+
+}
+.bar-container p{
+    font-size: 1.4rem;
+    color: #e00b0b;
+    font-weight: 500;
+    /* text-align: center; */
+    
+}
+/* .bar-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 0px 30px 0px;
+} */
+#contact{
+    background: #4e7575;
+    font-family: Lumanosimo;
+}
+.icon-set{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(0, 187, 255) ,rgba(34, 0, 255, 0.507));
+}
+.icon:hover i{
+    color: white;
+    animation: shake 0.25s;
+}
+#aboutus h2 ,.heading p{
+    color: blueviolet;
+}
+#food h2{
+    color: rgb(255, 88, 10);
+}
+#menu h2{
+    color: purple;
+}
+#contact h2{
+    color: rgb(215, 45, 14);
+}
+.icon:hover i{
+    /* color: white; */
+    animation: flip 0.25s;
+  }
+@keyframes flip {
+    10%{
+      transform: rotate(35deg);
+    }
+    20%{
+      transform: rotate(-35deg);
+    }
+    30%{
+      transform: rotate(35deg);
+    }
+    40%{
+      transform: rotate(-35deg);
+    }
+}
+.pp{
+    color: red;
+}
